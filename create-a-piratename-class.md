@@ -14,8 +14,9 @@ piratebadge.dart
  
 ##关键信息
 - 使用 `show` 关键字，你可以只导入你需要的类，方法，和属性。
-- `Random ` 提供了一个随机数的发生器。
-____
+- `Random ` 提供了一个随机数的发生器。  
+
+---
 加入一个类的声明在在文件的底部  
 
 ```
@@ -25,9 +26,10 @@ class PirateName {
 }
 ```  
 
-- 这个类的声明给类提供一个名字
-____
-创建一个类级别的 Random 对象
+- 这个类的声明给类提供一个名字  
+
+---
+创建一个类级别的 Random 实体
 
 ```
 class PirateName {
@@ -37,8 +39,9 @@ class PirateName {
 
 - `static` 定义类级别的字段，就是说随机数发生器被所有的类实例共享。
 - Dart 编辑器强调静态名字。
--  使用 `new` 调用一个构造函数。
-____
+-  使用 `new` 调用一个构造函数。  
+
+---  
 在类中加入两个实例变量,一个定义 first name ，一个定义 appellation 。  
 
 ```
@@ -48,8 +51,9 @@ class PirateName {
   String _appellation;
 }
 ``` 
-- 私有变量用`(_).`强调。Dart 没有 private 关键字。
-____
+- 私有变量用`(_).`强调。Dart 没有 private 关键字。  
+ 
+---
 在类内创建两个静态的 List ，提供 names 和 appellations 两个集合供选择。
 
 ```
@@ -65,8 +69,9 @@ class PirateName {
 ```
 - `final` 修饰的变量不能更改。
 - 列表是 Dart 内置的，使用 List 来创建。
-- List 类提供 API 给列表。
- ____
+- List 类提供 API 给列表。  
+
+---
  给类提供一个构造函数。
  
  ```
@@ -91,8 +96,9 @@ class PirateName {
 - `nextInt()` 函数得到一个随机整数从随机数发生器里。
 - 使用方括号 `([ ])` 为列表添加索引。
 - 使用 `length` 属性返回列表中元素的个数。
-- 代码使用随机数作为列表的索引。  
-____
+- 代码使用随机数作为列表的索引。    
+
+---
 提供一个 `getter` 给私有字段。
 
 ```
@@ -105,8 +111,9 @@ class PirateName {
 - Getters 是一个特别的方法，提供访问对象的属性。
 - 三元运算符 `?:` 是 `if-then-else` 语句的简略写法。
 - 字符串插入  `('$_firstName the $_appellation') ` 让我们很容易从其他对象构建字符串。
-- 大箭头 `( => expr; )` 是 `{ return expr; }` 语法的一个简称。  
-____
+- 大箭头 `( => expr; )` 是 `{ return expr; }` 语法的一个简称。   
+ 
+---
 重写 `toString()` 方法。  
 
 ```
@@ -117,8 +124,9 @@ class PirateName {
 ```  
 - 因为对象实现 `toString()` 方法没有给很多的信息，很多类重写 `toString()` 。  
 - 当你调用 `print(anObject)` 得到字符串，返回值是 `anObject.toString()` 得到的。  
-- 重写 `toString()` 在的调试和输出的时候特别有用。 
-____
+- 重写 `toString()` 在的调试和输出的时候特别有用。  
+ 
+---
 修改 `setBadgeName()` 方法时使用 PirateName 而不是 String 。    
 
 ```
@@ -127,7 +135,8 @@ void setBadgeName(PirateName newName) {
 }
 ```
 - 代码调用 getter 得到 PirateName 作为一个字符串。  
-____
+  
+---
 更改 `updateBadge()` 基于输入字段的值生成 PirateName 。  
 
 ```
@@ -138,8 +147,9 @@ void updateBadge(Event e) {
   ...
 }
 ```
-- 调用构造函数给可选的命名参数提供一个值。
-____  
+- 调用构造函数给可选的命名参数提供一个值。  
+
+---  
 更改 ` generateBadge() ` 生成一个 PirateName 而不是使用 `Anne Bonney`。
 
 ```
