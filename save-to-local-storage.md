@@ -30,7 +30,8 @@ class PirateName {
 - 构造函数创建一个新的 PirateName 实例来自 JSON 编码的字符串。
 - `PirateName.fromJSON` 是一个命名的构造函数。  
 - `JSON.decode()` 解析 JSON 字符串并由此创建一个 Dart 对象。
-- `pirate name` 解析成一个 `Map` 对象。  
+- `pirate name` 解析成一个 `Map` 对象。    
+
 --- 
 添加 getter 给 PirateName 类，编码 pirate name 在 JSON 字符串中。
 
