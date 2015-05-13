@@ -12,7 +12,7 @@ import 'dart:convert' show JSON;
 
 ##关键信息
 
-- `JSON` 提供了方便的访问最常见的 JSON 用例。  
+- `JSON` 提供了最常见实用访问用例。  
 
 ---
 给 PirateName 类添加一个命名的构造函数。
