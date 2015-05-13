@@ -54,7 +54,7 @@ class PirateName {
 - 私有变量用`(_).`强调。Dart 没有 private 关键字。  
  
 ---
-在类内创建两个静态的 List ，提供 names 和 appellations 两个集合供选择。
+在类内创建两个静态的集合，提供 names 和 appellations 这两个集合供选择。
 
 ```
 class PirateName {
@@ -69,7 +69,7 @@ class PirateName {
 ```
 - `final` 修饰的变量不能更改。
 - 列表是 Dart 内置的，使用 List 来创建。
-- List 类提供 API 给列表。  
+- List 类给列表提供 API。  
 
 ---
  给类提供一个构造函数。
@@ -93,7 +93,7 @@ class PirateName {
 ```  
 - 构造函数名和类名相同。
 - 参数被包含在花括号 `({ })` 是可选的被命名的参数。
-- `nextInt()` 函数得到一个随机整数从随机数发生器里。
+- `nextInt()` 函数从随机数发生器里得到一个随机整数。
 - 使用方括号 `([ ])` 为列表添加索引。
 - 使用 `length` 属性返回列表中元素的个数。
 - 代码使用随机数作为列表的索引。    
@@ -108,10 +108,10 @@ class PirateName {
     _firstName.isEmpty ? '' : '$_firstName the $_appellation';
 }
 ```  
-- Getters 是一个特别的方法，提供访问对象的属性。
+- Getters 是一个提供访问对象的属性的特别方法。
 - 三元运算符 `?:` 是 `if-then-else` 语句的简略写法。
-- 字符串插入  `('$_firstName the $_appellation') ` 让我们很容易从其他对象构建字符串。
-- 大箭头 `( => expr; )` 是 `{ return expr; }` 语法的一个简称。   
+- 字符串插入 `('$_firstName the $_appellation') ` 让我们很容易从其他对象构建字符串。
+- 大箭头 `( => expr; )` 是 `{ return expr; }` 语法的一个简写。   
  
 ---
 重写 `toString()` 方法。  
@@ -122,22 +122,22 @@ class PirateName {
   String toString() => pirateName;
 }
 ```  
-- 因为对象实现 `toString()` 方法没有给很多的信息，很多类重写 `toString()` 。  
-- 当你调用 `print(anObject)` 得到字符串，返回值是 `anObject.toString()` 得到的。  
-- 重写 `toString()` 在的调试和输出的时候特别有用。  
+- 因为对象实现 `toString()` 函数没有给很多的信息，所以很多类重写了 `toString()`函数 。  
+- 当你调用 `print(anObject)` 得到字符串，返回值事实是通过是 `anObject.toString()` 得到的。  
+- 在的调试和输出的时候重写 `toString()` 特别有用。  
  
 ---
-修改 `setBadgeName()` 方法时使用 PirateName 而不是 String 。    
+在修改 `setBadgeName()` 函数时要使用 PirateName 而不是 String 。    
 
 ```
 void setBadgeName(PirateName newName) {
   querySelector('#badgeName').text = newName.pirateName;
 }
 ```
-- 代码调用 getter 得到 PirateName 作为一个字符串。  
+- 代码调用 getter 得到一个字符串类型的 PirateName。  
   
 ---
-更改 `updateBadge()` 基于输入字段的值生成 PirateName 。  
+更改 `updateBadge()`函数的代码，基于输入字段的值生成一个PirateName 对象。  
 
 ```
 void updateBadge(Event e) {
@@ -147,10 +147,10 @@ void updateBadge(Event e) {
   ...
 }
 ```
-- 调用构造函数给可选的命名参数提供一个值。  
+- 调用构造函数给可选的命名参数赋值。  
 
 ---  
-更改 ` generateBadge() ` 生成一个 PirateName 而不是使用 `Anne Bonney`。
+更改 ` generateBadge() ` 生成一个 PirateName 对象而不是使用 `Anne Bonney`。
 
 ```
 void generateBadge(Event e) {
@@ -158,12 +158,12 @@ void generateBadge(Event e) {
 }
 
 ```  
-- 在这种情况下，通过无参数调用构造函数。
+- 在这种情况下，通过无参调用构造函数。
 
 ##运行应用  
 使用 ` File > Save All` 保存。  
 
-运行应用正确点击 `piratebadge.html` 并选择 ` Run in Dartium` 。
+正确点击 `piratebadge.html` 并选择 ` Run in Dartium`，运行应用。
 
 把你的应用和下面的比较。
 
