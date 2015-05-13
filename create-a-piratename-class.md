@@ -1,6 +1,6 @@
 #步骤 4 ：创建一个 PirateName 的类
 
-在这一步中，你改变的仅是 Dart 的代码，你创建一个来描述一个私有的名字，当创建这个类的一个实例，随机选择一个名字和称谓，或者你可以提供一个名字和称谓给构造函数。
+在这一步中，你改变的仅是 Dart 的代码，你可以自己为你新建的类起个名字，当创建这个类的一个实例，随机选择一个名字和称谓，或者你可以提供一个名字和称谓给构造函数。
 
 ##编辑 piratebadge.dart
 在文件的顶部加入 import  
@@ -42,7 +42,7 @@ class PirateName {
 -  使用 `new` 调用一个构造函数。  
 
 ---  
-在类中加入两个实例变量,一个定义 first name ，一个定义 appellation 。  
+在类中加入两个成员变量,一个定义 first name ，一个定义 appellation 。  
 
 ```
 class PirateName {
@@ -74,7 +74,7 @@ class PirateName {
 ---
  给类提供一个构造函数。
  
- ```
+```
  class PirateName {
   ...
   PirateName({String firstName, String appellation}) {
@@ -90,7 +90,9 @@ class PirateName {
     }
   }
 }
-```  
+
+```
+
 - 构造函数名和类名相同。
 - 参数被包含在花括号 `({ })` 是可选的被命名的参数。
 - `nextInt()` 函数得到一个随机整数从随机数发生器里。
@@ -127,7 +129,7 @@ class PirateName {
 - 重写 `toString()` 在的调试和输出的时候特别有用。  
  
 ---
-修改 `setBadgeName()` 方法时使用 PirateName 而不是 String 。    
+修改 `setBadgeName()` 方法，使用 PirateName 而不是 String 。    
 
 ```
 void setBadgeName(PirateName newName) {
