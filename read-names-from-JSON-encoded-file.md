@@ -169,6 +169,7 @@ main() async {
 - 使用 `await ` 关键字在 `Future` 返回之前执行暂停操作。
 - 当 `Future`通过 `readyThePirates()` 函数成功完成返回的时候，设置界面。
 - 使用 `try` 和 `catch` 关键字来检测和处理错误。
+
 ___
 
 ##运行应用
