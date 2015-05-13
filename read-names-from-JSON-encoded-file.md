@@ -84,7 +84,7 @@ class PirateName {
 
 - `[ ]` 相当于 `new List()` 。  
 
-- List 是一种通用的类型- List 可以包含任何类型的对象。如果你打算要一个包含字符串的列表，你可以声明成 `List<String>` 这样子。
+- List 是一种通用的类型- List 可以包含任何类型的对象。如果你打算要一个只包含字符串的列表，你可以声明成 `List<String>` 这样子。
 ___
 添加两个静态的方法到 PirateName 类：
 
