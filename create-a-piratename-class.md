@@ -163,7 +163,7 @@ void generateBadge(Event e) {
 ##运行应用  
 使用 ` File > Save All` 保存。  
 
-正确点击 `piratebadge.html` 并选择 ` Run in Dartium`，运行应用。
+在 `piratebadge.html` 点击鼠标右键并选择 ` Run in Dartium`，运行应用。
 
 把你的应用和下面的比较。
 
