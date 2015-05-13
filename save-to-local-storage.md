@@ -104,7 +104,7 @@ void main() {
 
 通过 `File > Save All` 保存文件。
 
-正确点击 `piratebadge.html`，选择 `Run in Dartium`，运行应用。
+在 `piratebadge.html` 点击鼠标右键并选择 ` Run in Dartium`，运行应用。
 
 把你的应用和下面正在运行的进行比较。
 
