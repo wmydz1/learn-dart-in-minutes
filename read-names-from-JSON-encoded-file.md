@@ -175,7 +175,7 @@ ___
 ##运行应用
 通过 `File > Save All` 保存文件。
 
-通过正确点击 `piratebadge.html`，选择 `Run in Dartium`，运行应用。
+在 `piratebadge.html` 点击鼠标右键并选择 ` Run in Dartium`，运行应用。
 
 如果你想看到应用找不到 `.json` 文件情况下会发生什么事情，那么请在代码里改变文件的名字并重新运行这个程序。
 
