@@ -150,7 +150,7 @@ void updateBadge(Event e) {
 - 调用构造函数给可选的命名参数赋值。  
 
 ---  
-更改 ` generateBadge() ` 生成一个 PirateName 对象而不是使用 `Anne Bonney`。
+更改 ` generateBadge() ` 生成一个 PirateName 对象，而不是使用 `Anne Bonney`。
 
 ```
 void generateBadge(Event e) {
