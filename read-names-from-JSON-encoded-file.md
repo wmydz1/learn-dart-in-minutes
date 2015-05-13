@@ -5,7 +5,7 @@
 ##创建 piratenames.json  
  
 使用`File > New File… ` 创建一个名为 `piratenames.json` 含有以下内容的 JSON 编码文件。
-把文件放在 `1-blankbadge` 你以前写过的 Dart 文件和 HTML 文件的旁边。
+把文件放在你以前写过的 Dart 文件和 HTML 文件的旁边( `1-blankbadge` )。
 
 ```
 { "names": [ "Anne", "Bette", "Cate", "Dawn",
