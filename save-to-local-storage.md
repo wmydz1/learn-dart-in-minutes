@@ -108,6 +108,7 @@ void main() {
 
 把你的应用和下面正在运行的进行比较。
 
-点击放一个名字进标记。复制这个窗口开始运行这个应用。
+点击放一个名字进标记。重新运行这个应用会看到你写的名字。
 
 
+![dart4](images/dart1-learn-dart-in-minutes-step-5-run-the-skeleton-app-pic1.png) 

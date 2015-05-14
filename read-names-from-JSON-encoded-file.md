@@ -181,4 +181,6 @@ ___
 运行应用通过正确点击 `piratebadge.html`，选择 `Run in Dartium`。
 
 如果你想看到应用找不到 `.json` 文件发生什么，在代码里改变文件的名字并重新运行这个程序。
+把你的应用和下面的最终版本对比一下
 
+![dart4](images/dart1-learn-dart-in-minutes-step-6-run-the-skeleton-app-pic1.png) 

@@ -172,6 +172,7 @@ void generateBadge(Event e) {
 在输入框中输入。删除输入字段。点击按钮。  
 
 
+![dart4](images/dart1-learn-dart-in-minutes-step-4-run-the-skeleton-app-pic1.png)  
 
 
   
