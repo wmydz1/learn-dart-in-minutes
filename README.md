@@ -1,2 +1,2 @@
-# learn-dart-in-minutes
-https://www.dartlang.org/codelabs/darrrt/
+# dart-language-tour
+https://www.dartlang.org/docs/dart-up-and-running/ch02.html
